@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Revson - Multipurpose HTML Template</title>
+    <meta name="author" content="TheShahriyar">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.6/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+<div id="form-pop-up-wrapper">
+    <div id="form-content-wrapper">
+        <div class="right-block-popup">
+            <!-- Start Form Section -->
+            <div class="exit-btn-popup-form"><img src="assets/images/popup-form/cross.svg" alt=""></div>
+            <section id="popup-form" style="background-color: #f9f9f9; position: relative;">
+                <div class="service-form popup-form-container">
+                    <form class="quotation-form">
+                        <h3 class="font-weight-300 popup-form-header">Get A <span class="font-weight-800 color-333">Quote</span>
+                        </h3>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name" required
+                                           data-validation-required-message="Please enter your name.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-group">
+                                    <input class="form-control" type="text" placeholder="E-mail" required
+                                           data-validation-required-message="Please enter Valid Email">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-group">
+                                    <input name="phone" class="form-control" type="text" placeholder="Your Phone"
+                                           data-validation-required-message="Please enter your Phone No.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-group upload-form-btn">
+                                    <label for="popup_image_uploads" class="input-label service-upload-label">
+                                        <i class="fa fa-upload"></i>
+                                        <span class="label_span">Select files to upload</span>
+                                    </label>
+                                    <input class="custom_file_input_maintPage" type="file" id="popup_image_uploads"
+                                           name="popup_image_uploads" accept=".jpg, .jpeg, .png" multiple>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <textarea name="message" class="form-control" placeholder="Your Message" required
+                                              data-validation-required-message="Please write something."
+                                              rows="6"></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-12 popup-form-btn-container">
+                                <button type="submit" class="btn btn-custom service-btn-custom descr_services_btn">
+                                    Submit
+                                </button>
+                            </div>
+                        </div>
+
+                    </form>
+
+                </div>
+            </section>
+            <!-- End Form Section -->
+        </div>
+    </div>
+</div>
+
+<div id="container">
+
+    <!-- Start Header & Navigation Section -->
+    <header class="clearfix navbar-fixed-top" id="header">
+        <!-- Static navbar -->
+        <nav class="navbar navbar-default">
+
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" id="logo" href="index.html"><img alt=""
+                                                                             src="assets/images/logo/logo.png"></a>
+                    <ul class="navbar_icons_phone_whatsapp">
+                        <li class="icon_whatsapp"><a href="https://api.whatsapp.com/send?phone=353863527977"><i
+                                class="fa fa-whatsapp"></i></a></li>
+                        <li class="icon_phone"><a href="tel:353863527977"><i class="fa fa-phone"></i></a></li>
+                    </ul>
+
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li class=""><a class="" href="index.html">Home</a>
+                        </li>
+
+                        <li class=""><a href="about-2.html">About</a>
+                        </li>
+                        <li class="drop"><a href="#" class="active">Services</a>
+                            <ul class="drop-down">
+                                <li><a href="kitchen.html">Kitchen Respray</a></li>
+                                <li><a href="furniture.html">Furniture Respray</a></li>
+                                <li><a href="children.html">Children Furniture Respray</a></li>
+                                <li><a href="nursery.html">Nursery Furniture Respray</a></li>
+                                <li><a href="outdoor.html" class="active">Outdoor Furniture Respray</a></li>
+                                <li><a href="upvc.html">uPVC Windows and Doors Respray</a></li>
+                            </ul>
+                        </li>
+                        <li class=""><a href="gallery.html">Gallery</a>
+                        </li>
+                        <li class=""><a href="contact-2.html">Contacts</a>
+                        </li>
+                    </ul>
+                    <div class="navbar_contacts_right_block">
+                        <div class="navbar_phone_container">
+                            <span class="navbar_phone_number">086 352 79 77</span>
+                            <p>Call or WhatsApp</p>
+                        </div>
+                        <a href="https://www.facebook.com/YourSprayPainter/" class="navbar_facebook_icon"><i
+                                class="fa fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End Header -->
+    <!-- End Header & Navigation Section -->
+
+
+    <!-- Start Preview - First Image Section -->
+    <section class="preview-section-services parallax"
+             style="background-image: url(assets/images/outdoor-respray/preview.jpg);background-position: center 45%;">
+        <div class="service-preview-cta">
+            <div class="service-preview-content-wrapper">
+                <div class="page-title">
+                    <h2><span class="font-weight-300">Give Your Kitchen</span> <br>a New Look</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et nobis nam aliquid nemo hic. Natus
+                        magnam, odio voluptatem. Fugiat, totam.</p>
+                    <a class="btn btn-custom descr_services_btn pop-up-form-activator" href="#" role="button">Get a
+                        Quote</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Preview - First Image Section -->
+
+    <!-- Kitchen Preview Section -->
+    <section class="pad-t80">
+        <div class="container">
+            <div class="row kitchen_preview">
+                <div class="col-md-12">
+                    <div class="section-title text-center">
+                        <h1 class="font-weight-300">Garden Furniture <span class="font-weight-800">Respray</span></h1>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam dignissimos consequuntur a
+                        pariatur nisi dolorum odit minus provident non soluta velit incidunt, sint assumenda aliquam eos
+                        neque temporibus molestiae fuga enim, ratione corporis aliquid asperiores ducimus dolore!
+                        Quisquam accusamus debitis repudiandae illo animi omnis libero, vitae itaque maiores
+                        voluptatibus architecto nihil similique excepturi minima officiis, earum, nobis deleniti.
+                        Eveniet odio eligendi iste culpa rem nesciunt, expedita cupiditate ex, fugit magni modi
+                        consequatur, odit doloribus sint soluta sunt omnis dolor numquam necessitatibus eius atque quo
+                        vitae dolores repudiandae. Enim fugit fugiat corporis nisi, provident sint soluta optio aut
+                        nulla ut, autem!</p>
+                </div>
+            </div>
+
+            <div class="row row-service-units-wrapper">
+                <div class="col-md-12 service-units-wrapper">
+
+                    <div class="description service-unit-block hide-min-992 service-unit-block-992-style">
+                        <div class="title-service-unit-block">
+                            <h3 class="font-weight-800">rattan garden <span class="font-weight-300">Furniture</span>
+                            </h3>
+                        </div>
+                        <div class="description-service-unit-block">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos minima facilis quod vitae
+                                illo ab unde? Fugit distinctio, iste, dignissimos ullam alias quidem debitis ex vero
+                                provident, sed unde dolore!</p>
+                        </div>
+
+                    </div>
+
+                    <div class="service-unit-block kitchen">
+                        <div class="service-unit-img">
+                            <img src="assets/images/outdoor-respray/sofa.jpg" alt="rattan sofa">
+                        </div>
+                        <div class="service-unit-title">
+                            <h4>rattan sofa</h4>
+                            <hr>
+                            <p>Price from €150</p>
+                        </div>
+                    </div>
+                    <div class="service-unit-block utility">
+                        <div class="service-unit-img">
+                            <img src="assets/images/outdoor-respray/chairs.jpg" alt="rattan chairs">
+                        </div>
+                        <div class="service-unit-title">
+                            <h4>rattan chairs</h4>
+                            <hr>
+                            <p>Price from €150</p>
+                        </div>
+                    </div>
+
+                    <div class="description service-unit-block hide-max-992">
+                        <div class="title-service-unit-block">
+                            <h3 class="font-weight-800">rattan garden <span class="font-weight-300">Furniture</span>
+                            </h3>
+                        </div>
+                        <div class="description-service-unit-block">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos minima facilis quod vitae
+                                illo ab unde? Fugit distinctio, iste, dignissimos ullam alias quidem debitis ex vero
+                                provident, sed unde dolore!</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row row-service-units-wrapper">
+                <div class="col-md-12 service-units-wrapper">
+                    <div class="description service-unit-block service-unit-block-992-style">
+                        <div class="title-service-unit-block">
+                            <h3 class="font-weight-800">wooden garden <span class="font-weight-300">furniture</span>
+                            </h3>
+                        </div>
+                        <div class="description-service-unit-block">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos minima facilis quod vitae
+                                illo ab unde? Fugit distinctio, iste, dignissimos ullam alias quidem debitis ex vero
+                                provident, sed unde dolore!</p>
+                        </div>
+
+                    </div>
+                    <div class="service-unit-block island">
+                        <div class="service-unit-img">
+                            <img src="assets/images/outdoor-respray/bench.jpg" alt="kitchen island">
+                        </div>
+                        <div class="service-unit-title">
+                            <h4>garden bench</h4>
+                            <hr>
+                            <p>Price from €150</p>
+                        </div>
+                    </div>
+                    <div class="service-unit-block cabinet">
+                        <div class="service-unit-img kitchen-cabinet">
+                            <img src="assets/images/outdoor-respray/tableChairs.jpg" alt="cupboard">
+                        </div>
+                        <div class="service-unit-title">
+                            <h4>garden table and chairs</h4>
+                            <hr>
+                            <p>Price from €150</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- END Kitchen Preview Section -->
+
+    <!-- Kitchen Design Section -->
+    <section class="pad-t80" style="background-color: #fff;">
+        <div class="container" id="kitchen-design">
+            <div class="row services_block">
+                <div class="img_services img_services_left">
+                    <img class="img_services_500" src="assets/images/outdoor-respray/patio-furniture.jpg"
+                         alt="Furniture Respray">
+                    <img class="img_services_400" src="assets/images/outdoor-respray/400-patio-furniture.jpg"
+                         alt="Furniture Respray">
+                </div>
+                <div class="descr_services valign_descr_services descr_services_right">
+                    <h2 class="font-weight-800">patio <span class="font-weight-300">furniture</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit ex illo totam. Magnam atque quidem
+                        ipsum. Nihil reiciendis sit temporibus eius. Beatae, doloribus sapiente earum iusto, hic labore
+                        porro facilis quisquam deserunt iste pariatur nemo sunt nobis minima, veniam amet repellendus
+                        magni placeat. Dolore eos, iusto voluptatibus deserunt at vero.</p>
+                    <a class="btn btn-custom descr_services_btn pop-up-form-activator" href="#" role="button">Get a
+                        Quote</a>
+                </div>
+            </div>
+
+
+            <!-- Benefits Section -->
+            <section class="service-benefits">
+                <div class="row service-benefits-row">
+                    <div class="benefit-unit col-sm-4">
+                        <div class="wrapper-benefits-content">
+                            <i class="fa fa-euro hide-max-767"></i>
+                            <div class="benefit-unit-text">
+                                <i class="fa fa-euro hide-min-767 show-max-767"></i>
+                                <h4 class="">Save your money</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, libero.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="benefit-unit col-sm-4">
+                        <div class="wrapper-benefits-content">
+                            <i class="fa fa-clock-o hide-max-767"></i>
+                            <div class="benefit-unit-text benefit-unit-icon-clock">
+                                <i class="fa fa-clock-o hide-min-767 show-max-767"></i>
+                                <h4 class="">Save your time</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, libero.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="benefit-unit col-sm-4">
+                        <div class="wrapper-benefits-content">
+                            <i class="fa fa-tint hide-max-767"></i>
+                            <div class="benefit-unit-text">
+                                <i class="fa fa-tint hide-min-767 show-max-767"></i>
+                                <h4 class="">Choose your color</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, libero.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- END Benefits Section -->
+
+
+            <div class="row services_block">
+                <div class="img_services img_services_right">
+                    <img class="img_services_500" src="assets/images/outdoor-respray/design.jpg" alt="Outdoor Respray">
+                    <img class="img_services_400" src="assets/images/outdoor-respray/400-design.jpg"
+                         alt="Kitchen Respray">
+                </div>
+                <div class="descr_services valign_descr_services descr_services_left">
+                    <h2 class="font-weight-300">Garden <span class="font-weight-800">Design</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit ex illo totam. Magnam atque quidem
+                        ipsum. Nihil reiciendis sit temporibus eius. Beatae, doloribus sapiente earum iusto, hic labore
+                        porro facilis quisquam deserunt iste pariatur nemo sunt nobis minima, veniam amet repellendus
+                        magni placeat. Dolore eos, iusto voluptatibus deserunt at vero.</p>
+                    <a class="btn btn-custom descr_services_btn pop-up-form-activator" href="#" role="button">Get a
+                        Quote</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END Kitchen Design Section -->
+
+    <!-- Kitchen Ideas Section -->
+    <section class="pad-t80" style="background-color: #fff;">
+        <div class="container-fluid">
+            <div class="row kitchen_page_other_services">
+                <div class="col-md-12">
+                    <div class="section-title text-center">
+                        <h2 class="font-weight-300">Garden <span class="font-weight-800">Ideas</span></h2>
+                    </div>
+                </div>
+                <div class="ideas-carousel swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="design-idea-item swiper-slide">
+                            <img src="assets/images/outdoor-respray/ideas/1.jpg" alt="">
+                        </div>
+                        <div class="design-idea-item swiper-slide">
+                            <img src="assets/images/outdoor-respray/ideas/2.jpg" alt="">
+                        </div>
+                        <div class="design-idea-item swiper-slide">
+                            <img src="assets/images/outdoor-respray/ideas/3.jpg" alt="">
+                        </div>
+                        <div class="design-idea-item swiper-slide">
+                            <img src="assets/images/outdoor-respray/ideas/4.jpg" alt="">
+                        </div>
+                        <div class="design-idea-item swiper-slide">
+                            <img src="assets/images/outdoor-respray/ideas/5.jpg" alt="">
+                        </div>
+                        <div class="design-idea-item swiper-slide">
+                            <img src="assets/images/outdoor-respray/ideas/6.jpg" alt="">
+                        </div>
+                        <div class="design-idea-item swiper-slide">
+                            <img src="assets/images/outdoor-respray/ideas/7.jpg" alt="">
+                        </div>
+                        <div class="design-idea-item swiper-slide">
+                            <img src="assets/images/outdoor-respray/ideas/8.jpg" alt="">
+                        </div>
+                        <div class="design-idea-item swiper-slide">
+                            <img src="assets/images/outdoor-respray/ideas/9.jpg" alt="">
+                        </div>
+                        <div class="design-idea-item swiper-slide">
+                            <img src="assets/images/outdoor-respray/ideas/10.jpg" alt="">
+                        </div>
+                        <div class="design-idea-item swiper-slide">
+                            <img src="assets/images/outdoor-respray/ideas/11.jpg" alt="">
+                        </div>
+                        <div class="design-idea-item swiper-slide">
+                            <img src="assets/images/outdoor-respray/ideas/12.jpg" alt="">
+                        </div>
+                        <div class="design-idea-item swiper-slide">
+                            <img src="assets/images/outdoor-respray/ideas/13.jpg" alt="">
+                        </div>
+                        <div class="design-idea-item swiper-slide">
+                            <img src="assets/images/outdoor-respray/ideas/14.jpg" alt="">
+                        </div>
+                        <div class="design-idea-item swiper-slide">
+                            <img src="assets/images/outdoor-respray/ideas/15.jpg" alt="">
+                        </div>
+                        <div class="design-idea-item swiper-slide">
+                            <img src="assets/images/outdoor-respray/ideas/16.jpg" alt="">
+                        </div>
+                        <div class="design-idea-item swiper-slide">
+                            <img src="assets/images/outdoor-respray/ideas/17.jpg" alt="">
+                        </div>
+                    </div>
+                    <!-- navigation buttons -->
+                    <div class="swiper-button-prev"><i class="fa fa-angle-left"></i></div>
+                    <div class="swiper-button-next"><i class="fa fa-angle-right"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END Kitchen Ideas Section -->
+
+    <!-- Start Form Section -->
+    <section class="pad-t80 pad-b50" style="background-color: #f9f9f9; position: relative;">
+        <div class="container">
+            <div class="row row-service-form">
+                <div class="service-form">
+                    <div class="section-title form_title_mainPage">
+                        <h3 class="font-weight-300">Get A <span class="font-weight-800 color-333">Quote</span></h3>
+                    </div>
+                    <form id="quotationFrom" class="quotation-form">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name" required
+                                           data-validation-required-message="Please enter your name.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-group">
+                                    <input class="form-control" id="email" type="text" placeholder="E-mail" required
+                                           data-validation-required-message="Please enter Valid Email">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-group">
+                                    <input name="phone" class="form-control" id="phone" type="text"
+                                           placeholder="Your Phone"
+                                           data-validation-required-message="Please enter your Phone No.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-group">
+                                    <select name="category" class="form-control" id="category" required
+                                            data-validation-required-message="Please select a Category">
+                                        <option value="" selected>Please select a service</option>
+                                        <option value="Kitchen Respray">Kitchen Respray</option>
+                                        <option value="furniture Respray">Furniture Respray</option>
+                                        <option value="Children Furniture Respray">Children Furniture Respray</option>
+                                        <option value="Nursery Furniture Respray">Nursery Furniture Respray</option>
+                                        <option value="Outdoor Furniture Respray">Outdoor Furniture Respray</option>
+                                        <option value="uPVC Windows and Doors Respray">uPVC Windows and Doors Respray
+                                        </option>
+                                    </select>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <div class="form-group upload-form-btn">
+                                    <label for="image_uploads" class="input-label service-upload-label">
+                                        <i class="fa fa-upload"></i>
+                                        <span class="label_span">Select files to upload</span>
+                                    </label>
+                                    <input class="custom_file_input_maintPage" type="file" id="image_uploads"
+                                           name="image_uploads" accept=".jpg, .jpeg, .png" multiple>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <textarea name="message" class="form-control" id="message"
+                                              placeholder="Your Message" required
+                                              data-validation-required-message="Please write something."
+                                              rows="6"></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <button type="submit" class="btn btn-custom service-btn-custom descr_services_btn"
+                                        id="submit">Submit
+                                </button>
+                            </div>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Form Section -->
+
+
+    <!-- Start Footer & Copyright Section -->
+    <section class="footer-section pad-t80 pad-b30" style="background-color: #222;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="footer-title">
+                        <h3>About Us</h3>
+                    </div>
+                    <div class="footer-text">
+                        <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. <span
+                                class="text-brand-color">Vivamus magna justo</span>, lacinia eget consectetur sed,
+                            convallis at tellus. Nulla porttitor accumsan tincidunt.</p>
+                        <p>Vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum ante ipsum primis in
+                            faucibus orci <span class="text-brand-color">luctus et</span> ultrices posuere cubilia
+                            Curae.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-title">
+                        <h3>Contact</h3>
+                    </div>
+                    <address class="footer-office-hour">
+                        <ul>
+                            <li>Phone :</li>
+                            <li>+353 86 352 7977</li>
+                        </ul>
+                        <ul>
+                            <li>E-mail :</li>
+                            <li>professionalspraypainting@yahoo.com</li>
+                        </ul>
+                        <ul>
+                            <li>Address :</li>
+                            <li>Unit 9, Spawell Yard, Templeogue</li>
+                        </ul>
+                    </address>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-title">
+                        <h3>Service List</h3>
+                    </div>
+                    <div class="footer-list">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-chevron-right"></i>Kitchen Respray</a></li>
+                            <li><a href="#"><i class="fa fa-chevron-right"></i>Furniture Respray</a></li>
+                            <li><a href="#"><i class="fa fa-chevron-right"></i>Children Furniture Respray</a></li>
+                            <li><a href="#"><i class="fa fa-chevron-right"></i>Nursery Furniture Respray</a></li>
+                            <li><a href="#"><i class="fa fa-chevron-right"></i>Outdoor Furniture Respray</a></li>
+                            <li><a href="#"><i class="fa fa-chevron-right"></i>uPVC Windows and Doors Respray</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="copyright">
+                    <div class="col-md-6">
+                        <div class="copyright-text">
+                            <p>Professional Spray Painting © 2017</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Footer & Copyright Section -->
+
+    <div id="back-to-top" class="back-to-top reveal">
+        <i class="fa fa-angle-up fa-2x"></i>
+    </div>
+
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.6/js/swiper.min.js"></script>
+<script src="assets/js/swiper-slider/swiper.js"></script>
+<script src="assets/js/upload_btn.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

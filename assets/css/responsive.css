@@ -1,0 +1,907 @@
+
+.navbar_icons_phone_whatsapp {
+    display: none;
+}
+
+.navbar_contacts_right_block {
+    display: inline-block;
+    float: right;
+}
+
+.navbar_facebook_icon {
+    position: absolute;
+    right: 220px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.navbar_facebook_icon .fa {
+    font-size: 20px;
+    background-color: rgba(66, 103, 178, 0.9);
+    border-radius: 50%;
+    color: #fff;
+    padding: 8px 12px;
+}
+
+.navbar_phone_container {
+    text-align: center;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.navbar_phone_number {
+    font-size: 25px;
+}
+
+.navbar_phone_container p {
+    font-size: 15px;
+    line-height: 13px;
+}
+
+@media (max-width: 1200px) {
+    .service-unit-block {
+        width: 250px;
+    }
+
+    .rocking-chair {
+        height: 191.66px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .tp-leftarrow, .tp-rightarrow {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .tp-leftarrow {
+        left: -15px !important;
+    }
+
+    .tp-rightarrow {
+        left: 101% !important;
+    }
+
+    .tparrows:before {
+        line-height: 25px !important;
+    }
+
+    .image-content-list li {
+        margin-bottom: 30px;
+    }
+
+    .image-content-list li:last-child {
+        margin-bottom: 0;
+    }
+
+    .latest-news .news-meta {
+        top: 110px;
+    }
+
+    .revenue-gallery li {
+        margin-right: 10px;
+    }
+
+    .navbar-nav > li > a {
+        padding: 30px 14px;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    .greeting_mainPage h1 {
+        font-size: 4em;
+    }
+
+    .section-title h3 {
+        font-size: 3em;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .navbar.navbar-default .navbar-nav > li > a {
+        padding: 30px 11px;
+    }
+
+    .navbar_facebook_icon {
+        right: 205px;
+    }
+}
+
+@media (max-width: 992px) {
+    .portfolio-box.col-4 .portfolio-post {
+        width: 50%;
+    }
+
+    .team-member {
+        margin-bottom: 30px;
+    }
+
+    .pricing-box {
+        margin-bottom: 30px;
+    }
+
+    .latest-news .news-details a {
+        float: left !important;
+    }
+
+    .image-content-img {
+        display: none;
+    }
+
+    .animated-counter,
+    .progress-chart-feature {
+        padding-bottom: 60px;
+    }
+
+    .animated-counter-2 {
+        margin-bottom: 80px !important;
+    }
+
+    .feature-5 {
+        margin-bottom: 30px;
+    }
+
+    .block-number {
+        margin-bottom: 30px;
+    }
+
+    .navbar {
+        min-height: 60px;
+    }
+
+    .navbar-brand > img {
+        width: 140px;
+        height: auto;
+    }
+
+    .navbar.navbar-default .navbar-nav > li > a {
+        padding: 10px 8px;
+    }
+
+    .navbar-collapse.collapse {
+        margin-top: 10px;
+    }
+
+    .copyright-section .col-md-6 {
+        width: 50% !important;
+        display: inline-block;
+    }
+
+    .copyright-section .col-md-6:last-child {
+        float: right;
+    }
+
+    .testimonial-slide .carousel-inner .item {
+        padding-bottom: 80px;
+    }
+
+    .testimonial-slide .carousel-indicators {
+        bottom: -20px;
+    }
+
+    .navbar-default .navbar-brand {
+        padding-right: 0;
+        padding-left: 5px;
+    }
+
+    .navbar-nav {
+        padding-left: 1%;
+        margin-top: 11px;
+    }
+
+    .navbar-brand > img {
+        width: 90px;
+    }
+
+    .navbar_phone_number {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .navbar_phone_container p {
+        font-size: 11px;
+        right: 7px;
+    }
+
+    .navbar_facebook_icon .fa {
+        font-size: 13px;
+        padding: 6px 9px;
+    }
+
+    .navbar_facebook_icon {
+        right: 135px;
+    }
+
+    /*** Main Page ***/
+    .icon_benefit_block {
+        margin: 0;
+    }
+
+    .descr_services h2 {
+        font-size: 1.9em;
+        padding-bottom: 10px;
+    }
+
+    /*** About Pages ***/
+    .working-process-right-block {
+        width: 90%;
+        min-width: inherit;
+        float: none;
+    }
+
+    .working-process-left-block {
+        display: none;
+    }
+
+    /*** Service Pages ***/
+    .hide-max-992 {
+        display: none;
+    }
+
+    .hide-min-992 {
+        display: inline-block;
+    }
+
+    .service-unit-block-992-style {
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .right-block-popup {
+        width: 500px;
+    }
+
+    .row-service-units-wrapper {
+        margin-top: 50px;
+    }
+
+    .service-benefits-row {
+        padding: 0;
+    }
+
+    .service-form {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+    .service-form {
+        width: 90%;
+    }
+}
+
+@media (max-width: 991px) {
+    /*** About Page ***/
+    .paint-features {
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .hide-max-767 {
+        display: none;
+    }
+
+    .show-max-767 {
+        display: inline-block;
+    }
+
+    .navbar-default .navbar-brand img {
+        margin-top: 0;
+    }
+
+    .pad100 {
+        padding: 50px 0;
+    }
+
+    .pad80 {
+        padding: 40px 0;
+    }
+
+    .pad-t100 {
+        padding-top: 50px;
+    }
+
+    .pad-b70 {
+        padding-bottom: 25px;
+    }
+
+    .navbar-header {
+        text-align: center;
+    }
+
+    .navbar.navbar-default {
+        background: rgba(255, 255, 255, 0.9);
+    }
+
+    .navbar-brand {
+        float: left;
+        padding-top: 0;
+    }
+
+    .navbar-brand > img {
+        width: 130px;
+        height: auto;
+        display: inline-block;
+    }
+
+    .navbar {
+        min-height: 70px;
+    }
+
+    .navbar-toggle {
+        margin-top: 15px;
+    }
+
+    .image-content-img {
+        position: inherit !important;
+        width: 100% !important;
+        height: 300px !important;
+    }
+
+    .image-content {
+        margin-top: 40px;
+    }
+
+    .image-content-list li {
+        margin-bottom: 30px;
+    }
+
+    .image-content-list li:last-child {
+        margin-bottom: 0;
+    }
+
+    .team-member-style-1 .team-member-img img {
+        width: 100% !important;
+    }
+
+    .palace-tab .nav-tabs > li.active:before {
+        border-width: 0;
+    }
+
+    .palace-tab .tab-content .tab-pane img,
+    .palace-tab .tab-content .tab-pane span {
+        margin-bottom: 30px;
+    }
+
+    .call-to-action-simple {
+        margin-bottom: 30px;
+    }
+
+    .call-to-action-btn {
+        float: left !important;
+    }
+
+    ul.filter {
+        margin-bottom: 30px;
+    }
+
+    .portfolio-box.col-4 .portfolio-post {
+        width: 50%;
+    }
+
+    .breadcrumb {
+        float: left;
+    }
+
+    .copyright, .footer-nav {
+        text-align: center;
+        float: none;
+    }
+
+    .copyright-section .col-md-6 {
+        width: 100% !important;
+        display: inline-block;
+    }
+
+    .right-half, .left-half {
+        display: none;
+    }
+
+    .testimonial-carousel-1 {
+        margin-bottom: 50px;
+    }
+
+    .top-header .top-social {
+        text-align: center;
+    }
+
+    .top-header .top-phone, .top-header .top-address {
+        display: none;
+    }
+
+    .breadcrumb-section {
+        text-align: center;
+    }
+
+    .blog-post .post-content .post-footer .read-more {
+        float: none;
+    }
+
+    .blog-post .post-content .post-footer .post-meta {
+        margin-bottom: 20px;
+    }
+
+    .left-sidebar {
+        margin-bottom: 30px;
+    }
+
+    .right-sidebar {
+        margin-top: 30px;
+    }
+
+    .call-to-action-2 h3 {
+        margin-bottom: 30px;
+    }
+
+    .footer-menu ul {
+        text-align: center;
+    }
+
+    .banner h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .slogan-section {
+        text-align: center;
+    }
+
+    .slogan-section a {
+        float: none;
+        margin-top: 30px;
+    }
+
+    .navbar_icons_phone_whatsapp {
+        margin-top: 14px;
+        text-align: right;
+        display: block;
+    }
+
+    .navbar_icons_phone_whatsapp a {
+        display: inline-block;
+    }
+
+    .navbar_icons_phone_whatsapp li {
+        display: inline-block;
+    }
+
+    .navbar_icons_phone_whatsapp .fa {
+        font-size: 25px;
+        border-radius: 50%;
+        color: #fff;
+    }
+
+    .navbar_contacts_right_block {
+        display: none;
+    }
+
+    .icon_phone .fa-phone {
+        background-color: rgb(77, 173, 247);
+        padding: 6px 9px;
+        -webkit-box-shadow: 0px 0px 2px 0px rgba(27, 98, 114, 0.75);
+        -moz-box-shadow: 0px 0px 2px 0px rgba(27, 98, 114, 0.75);
+        box-shadow: 0px 0px 2px 0px rgba(27, 98, 114, 0.75);
+    }
+
+    .icon_whatsapp .fa-whatsapp {
+        background-color: #66a80f;
+        padding: 6px 8px;
+        -webkit-box-shadow: 0px 0px 2px 0px rgba(93, 131, 41, 0.75);
+        -moz-box-shadow: 0px 0px 2px 0px rgba(93, 131, 41, 0.75);
+        box-shadow: 0px 0px 2px 0px rgba(93, 131, 41, 0.75);
+    }
+
+    .icon_phone {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    /*** Main Page ***/
+    .greeting_p_mainPage {
+        -webkit-column-count: 1; /* Chrome, Safari, Opera */
+        -moz-column-count: 1; /* Firefox */
+        column-count: 1;
+    }
+
+    .icon_benefit_block {
+        padding: 0 25px;
+    }
+
+    .icon_benefit_block img {
+        max-width: 100px;
+    }
+
+    /** Services **/
+    .services_block {
+        padding: 20px 50px;
+    }
+
+    .descr_services {
+        position: static;
+        top: 0;
+        transform: none;
+        display: block;
+        float: none;
+        max-width: 100%;
+    }
+
+    .descr_services_btn {
+        float: none;
+        margin: auto;
+        display: block;
+        width: 175px;
+    }
+
+    .descr_services h2 {
+        padding-top: 20px;
+    }
+
+    .img_services {
+        display: block;
+        min-width: 100%;
+        float: none;
+    }
+
+    .img_services img {
+        width: auto;
+        margin: auto;
+    }
+
+    .img_services_400 {
+        display: block;
+    }
+
+    .img_services_500 {
+        display: none;
+    }
+
+    /*** About Pages ***/
+    .service-benefits-second-unit {
+        padding-top: 30px !important;
+    }
+
+    .about-page-working-section {
+        padding-top: 60px;
+    }
+
+    .solid_wood_pattern_wood_block,
+    .paint-block-about-page {
+        padding: 0 20px;
+    }
+
+    #img-paint-about-page {
+        display: inline-block;
+    }
+
+    .img-block-paint-about-page {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .paint-features {
+        padding-top: 40px;
+    }
+
+    .about_preview p,
+    .paint-block-about-page,
+    .kitchen_preview p {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+
+    /*** Service Pages ***/
+    .right-block-popup {
+        width: 90%;
+    }
+
+    .popup-form-header {
+        padding-bottom: 25px;
+        font-size: 2.5em;
+    }
+
+    .popup-form-btn-container {
+        padding-top: 3px;
+    }
+
+    .service-preview-cta {
+        left: 0;
+        right: 0;
+        text-align: center;
+        width: auto;
+        background-position: center;
+    }
+
+    .wrapper-benefits-content {
+        width: 88%;
+        margin: auto;
+    }
+
+    .service-benefits .fa {
+        position: static;
+    }
+
+    .benefit-unit-text {
+        text-align: center;
+        padding: 0;
+    }
+
+    .benefit-unit-text h4 {
+        display: inline-block;
+    }
+
+    .service-benefits-row {
+        text-align: center;
+    }
+
+    .benefit-unit {
+        display: inline-block;
+        width: 300px;
+    }
+
+    .benefit-unit-text p {
+        margin-left: 0;
+    }
+
+    .service-benefits-row div:last-child {
+        margin-top: 20px;
+    }
+
+    .service-form {
+        width: 400px;
+    }
+
+    #form-pop-up-wrapper .service-form {
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 603px) {
+    .service-benefits-row div:first-child {
+        margin-top: 0;
+    }
+
+    .benefit-unit {
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width: 603px) and (min-width: 480px) {
+    #first-section-services-about .benefit-unit,
+    #second-section-services-about .benefit-unit {
+        width: 235px;
+        padding: 0;
+    }
+}
+
+@media (max-width: 573px) {
+    .service-unit-block.utility,
+    .service-unit-block.cabinet {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 522px) {
+
+    .service-preview-content-wrapper {
+        width: 100%;
+    }
+
+    .service-preview-content-wrapper p {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .navbar-default .navbar-brand img {
+        width: 110px;
+    }
+
+    #logo img {
+        max-height: 90%;
+    }
+
+    .parallax-slide-text-2 h1 {
+        font-size: 32px;
+        line-height: 55px;
+    }
+
+    ul.filter li {
+        margin-bottom: 30px;
+    }
+
+    ul.filter li a {
+        padding: 6px 15px;
+    }
+
+    .portfolio-box.col-4 .portfolio-post {
+        width: 100%;
+    }
+
+    .portfolio-post img {
+        width: 100% !important;
+    }
+
+    .latest-news {
+        margin-bottom: 30px;
+    }
+
+    .latest-news .news-details a {
+        margin-right: 30px;
+    }
+
+    .right-half, .left-half {
+        display: none;
+    }
+
+    .call-to-action-btn {
+        float: none !important;
+    }
+
+    .revenue-gallery li {
+        width: 25%;
+        margin-right: 0;
+    }
+
+    .text-section-left {
+        margin-bottom: 30px;
+    }
+
+    .client-list {
+        margin: 0;
+    }
+
+    .top-header .top-phone, .top-header .top-address {
+        display: none;
+    }
+
+    .footer-social {
+        display: inline-block;
+    }
+
+    .btn-2 {
+        display: none !important;
+    }
+
+    .banner h1 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    .pagination > li {
+        float: left;
+        padding-bottom: 5px;
+    }
+
+    .mbl-mar-bottom-20 {
+        margin-bottom: 20px;
+    }
+
+    /*** Main Page ***/
+    .icons_benefits_mainPage {
+        display: none;
+    }
+
+    /*** About Page ***/
+    .number {
+        display: none;
+    }
+
+    .working-process-steps .content {
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    /** Services **/
+    .services_block {
+        padding: 20px 25px;
+    }
+
+    .descr_services {
+        text-align: center;
+    }
+
+    .descr_services h2 {
+        font-size: 1.8em;
+    }
+
+    .descr_services p {
+        text-align: left;
+    }
+
+    .descr_services a {
+        float: none;
+        width: 175px;
+    }
+
+    /*** Service Pages ***/
+    #form-content-wrapper {
+        width: 90%;
+    }
+
+    .right-block-popup {
+        width: 100%;
+        height: 86%;
+        top: 40px;
+    }
+
+    #popup-form {
+        height: 100%;
+    }
+
+    #popup-form .form-group {
+        margin-bottom: 5px;
+    }
+
+    #popup-form textarea {
+        height: 50px;
+        margin-bottom: 0;
+        line-height: 35px;
+    }
+
+    .popup-form-header {
+        font-size: 2.2em;
+        text-align: left;
+    }
+
+    .popup-form-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .popup-form-btn-container {
+        padding-top: 17px;
+    }
+
+    .service-preview-content-wrapper h2 {
+        font-size: 2.4em;
+    }
+
+    .service-form {
+        width: 330px;
+    }
+
+}
+
+@media (min-width: 397px) and (max-width: 480px) {
+    .swiper-container-android .swiper-slide, .swiper-wrapper {
+        text-align: center;
+    }
+}
+
+@media (max-width: 377px) {
+    .service-form {
+        width: 280px;
+    }
+}
+
+@media (max-width: 351px) {
+    .testimonial-slide .carousel-inner {
+        min-height: 550px;
+    }
+}
+
+@media (max-width: 320px) {
+    .banner h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .testimonial-slide .carousel-inner {
+        min-height: 550px;
+    }
+}
