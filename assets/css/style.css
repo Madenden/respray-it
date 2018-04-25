@@ -3816,6 +3816,7 @@ ul.filter li a.active {
 #logo img {
     max-height: 100%;
     width: auto;
+    margin-top: 5px;
 }
 
 /** Footer **/

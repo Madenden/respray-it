@@ -198,23 +198,28 @@
         width: 90px;
     }
 
+    .navbar.navbar-default .navbar-nav > li > a {
+        font-size: inherit;
+    }
+
     .navbar_phone_number {
-        font-size: 15px;
-        font-weight: bold;
+        font-size: 23px;
     }
 
     .navbar_phone_container p {
-        font-size: 11px;
-        right: 7px;
-    }
-
-    .navbar_facebook_icon .fa {
-        font-size: 13px;
-        padding: 6px 9px;
+        font-size: 14px;
     }
 
     .navbar_facebook_icon {
-        right: 135px;
+        right: 190px;
+    }
+
+    .navbar_icons_phone_whatsapp {
+        padding-top: 7px;
+    }
+
+    .navbar-default .navbar-toggle {
+        margin-top: 22px;
     }
 
     /*** Main Page ***/
@@ -316,8 +321,26 @@
         text-align: center;
     }
 
-    .navbar.navbar-default {
-        background: rgba(255, 255, 255, 0.9);
+    .navbar-default {
+        background-color: #fff;
+    }
+
+    .drop-down li {
+        padding: 10px 0;
+    }
+
+    .navbar-nav > li{
+        font-size: 15px;
+    }
+
+    .navbar-nav > li > a {
+        font-weight: 600;
+    }
+
+    .navbar-nav li ul.drop-down li a {
+        color: #666;
+        font-size: 14px;
+        font-weight: 400;
     }
 
     .navbar-brand {
@@ -711,6 +734,7 @@
 
     #logo img {
         max-height: 90%;
+        margin-top: 5px;
     }
 
     .parallax-slide-text-2 h1 {
