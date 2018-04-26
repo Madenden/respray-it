@@ -899,6 +899,10 @@
         width: 330px;
     }
 
+    .about-page-preview {
+        background-image: url("../images/about/mobile_preview.jpg") !important;
+    }
+
 }
 
 @media (min-width: 397px) and (max-width: 480px) {
