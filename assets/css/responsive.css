@@ -40,6 +40,17 @@
     line-height: 13px;
 }
 
+@media (max-width: 1440px) {
+    .preview-section-services {
+        height: 500px;
+    }
+
+    .about-page-preview {
+        background-image: url("../images/about/l_laptop_preview.jpg");
+        background-position: center;
+    }
+}
+
 @media (max-width: 1200px) {
     .service-unit-block {
         width: 250px;
@@ -87,6 +98,10 @@
 
     .navbar-nav > li > a {
         padding: 30px 14px;
+    }
+
+    .about-page-preview {
+        background-image: url("../images/about/s_laptop_preview.jpg");
     }
 
 }
@@ -685,6 +700,10 @@
         width: 90%;
     }
 
+    .about-page-preview {
+        background-image: url("../images/about/tablet_preview.jpg");
+    }
+
 }
 
 @media (max-width: 603px) {
@@ -900,7 +919,7 @@
     }
 
     .about-page-preview {
-        background-image: url("../images/about/mobile_preview.jpg") !important;
+        background-image: url("../images/about/mobile_preview.jpg");
     }
 
 }

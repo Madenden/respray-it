@@ -3841,6 +3841,11 @@ ul.filter li a.active {
     padding-top: 40px;
 }
 
+.about-page-preview {
+    background-image: url("../images/about/4k_preview.jpg");
+    background-position: center;
+}
+
 /** Services We Offer Block **/
 .about_services {
     text-align: center;
@@ -4186,7 +4191,7 @@ ul.filter li a.active {
 /*Service Page Preview Image*/
 .preview-section-services {
     position: relative;
-    height: 500px;
+    height: 780px;
     background-position: center -40px;
 }
 
