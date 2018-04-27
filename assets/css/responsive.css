@@ -40,6 +40,17 @@
     line-height: 13px;
 }
 
+@media (max-width: 1920px) {
+    .preview-section-services {
+        height: 600px;
+        background-position: center;
+    }
+
+    .about-page-preview {
+        background-image: url("../images/about/desktop_preview.jpg");
+    }
+}
+
 @media (max-width: 1440px) {
     .preview-section-services {
         height: 500px;
@@ -47,7 +58,10 @@
 
     .about-page-preview {
         background-image: url("../images/about/l_laptop_preview.jpg");
-        background-position: center;
+    }
+
+    .kitchen-page-preview {
+        background: url(../images/kitchen-respray/l_laptop_kitchen.jpg) no-repeat center;
     }
 }
 
@@ -102,6 +116,10 @@
 
     .about-page-preview {
         background-image: url("../images/about/s_laptop_preview.jpg");
+    }
+
+    .kitchen-page-preview {
+        background: url(../images/kitchen-respray/s_laptop_kitchen.jpg) no-repeat center;
     }
 
 }
@@ -523,17 +541,17 @@
     .icon_phone .fa-phone {
         background-color: rgb(77, 173, 247);
         padding: 6px 9px;
-        -webkit-box-shadow: 0px 0px 2px 0px rgba(27, 98, 114, 0.75);
-        -moz-box-shadow: 0px 0px 2px 0px rgba(27, 98, 114, 0.75);
-        box-shadow: 0px 0px 2px 0px rgba(27, 98, 114, 0.75);
+        -webkit-box-shadow: 0 0 2px 0 rgba(27, 98, 114, 0.75);
+        -moz-box-shadow: 0 0 2px 0 rgba(27, 98, 114, 0.75);
+        box-shadow: 0 0 2px 0 rgba(27, 98, 114, 0.75);
     }
 
     .icon_whatsapp .fa-whatsapp {
         background-color: #66a80f;
         padding: 6px 8px;
-        -webkit-box-shadow: 0px 0px 2px 0px rgba(93, 131, 41, 0.75);
-        -moz-box-shadow: 0px 0px 2px 0px rgba(93, 131, 41, 0.75);
-        box-shadow: 0px 0px 2px 0px rgba(93, 131, 41, 0.75);
+        -webkit-box-shadow: 0 0 2px 0 rgba(93, 131, 41, 0.75);
+        -moz-box-shadow: 0 0 2px 0 rgba(93, 131, 41, 0.75);
+        box-shadow: 0 0 2px 0 rgba(93, 131, 41, 0.75);
     }
 
     .icon_phone {
@@ -702,6 +720,10 @@
 
     .about-page-preview {
         background-image: url("../images/about/tablet_preview.jpg");
+    }
+
+    .kitchen-page-preview {
+        background-image: url("../images/kitchen-respray/tablet_kitchen.jpg");
     }
 
 }
@@ -920,6 +942,10 @@
 
     .about-page-preview {
         background-image: url("../images/about/mobile_preview.jpg");
+    }
+
+    .kitchen-page-preview {
+        background-image: url("../images/kitchen-respray/mobile_kitchen.jpg");
     }
 
 }
