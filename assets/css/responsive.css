@@ -49,6 +49,10 @@
     .about-page-preview {
         background-image: url("../images/about/desktop_preview.jpg");
     }
+
+    .furniture-page-preview {
+        background: url('../images/furniture-respray/desktop_furniture.jpg') no-repeat center;
+    }
 }
 
 @media (max-width: 1440px) {
@@ -62,6 +66,10 @@
 
     .kitchen-page-preview {
         background: url(../images/kitchen-respray/l_laptop_kitchen.jpg) no-repeat center;
+    }
+
+    .furniture-page-preview {
+        background: url('../images/furniture-respray/l_laptop_furniture.jpg') no-repeat center;
     }
 }
 
@@ -120,6 +128,10 @@
 
     .kitchen-page-preview {
         background: url(../images/kitchen-respray/s_laptop_kitchen.jpg) no-repeat center;
+    }
+
+    .furniture-page-preview {
+        background: url('../images/furniture-respray/s_laptop_furniture.jpg') no-repeat center;
     }
 
 }
@@ -726,6 +738,10 @@
         background-image: url("../images/kitchen-respray/tablet_kitchen.jpg");
     }
 
+    .furniture-page-preview {
+        background: url('../images/furniture-respray/tablet_furniture.jpg') no-repeat center;
+    }
+
 }
 
 @media (max-width: 603px) {
@@ -946,6 +962,10 @@
 
     .kitchen-page-preview {
         background-image: url("../images/kitchen-respray/mobile_kitchen.jpg");
+    }
+
+    .furniture-page-preview {
+        background: url('../images/furniture-respray/mobile_furniture.jpg') no-repeat center;
     }
 
 }

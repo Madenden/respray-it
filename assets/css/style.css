@@ -1918,10 +1918,9 @@ blockquote.ash-bg {
 }
 
 ul.filter {
-    margin: 0;
+    margin: 0 0 60px;
     padding: 0;
     text-align: center;
-    margin-bottom: 60px;
 }
 
 ul.filter li {
@@ -4174,6 +4173,10 @@ ul.filter li a.active {
     position: relative;
     height: 780px;
     background-position: center;
+}
+
+.furniture-page-preview {
+    background: url('../images/furniture-respray/4k_furniture.jpg') no-repeat center;
 }
 
 .hide-max-992 {
