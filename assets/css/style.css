@@ -4179,6 +4179,22 @@ ul.filter li a.active {
     background: url('../images/furniture-respray/4k_furniture.jpg') no-repeat center;
 }
 
+.nursery-page-preview {
+    background: url('../images/nursery-respray/4k_nursery.jpg') no-repeat center;
+}
+
+.children-page-preview {
+    background: url('../images/children-respray/desktop_children.jpg') no-repeat center;
+}
+
+.outdoor-page-preview {
+    background: url('../images/outdoor-respray/4k_outdoor.jpg') no-repeat center;
+}
+
+.upvc-page-preview {
+    background: url('../images/upvc-respray/preview.jpg') no-repeat center;
+}
+
 .hide-max-992 {
     display: inline-block;
 }

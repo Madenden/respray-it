@@ -53,6 +53,14 @@
     .furniture-page-preview {
         background: url('../images/furniture-respray/desktop_furniture.jpg') no-repeat center;
     }
+
+    .nursery-page-preview {
+        background: url('../images/nursery-respray/desktop_nursery.jpg') no-repeat center;
+    }
+
+    .upvc-page-preview {
+        background: url('../images/upvc-respray/desktop_upvc.jpg') no-repeat center;
+    }
 }
 
 @media (max-width: 1440px) {
@@ -70,6 +78,18 @@
 
     .furniture-page-preview {
         background: url('../images/furniture-respray/l_laptop_furniture.jpg') no-repeat center;
+    }
+
+    .nursery-page-preview {
+        background: url('../images/nursery-respray/l_laptop_nursery.jpg') no-repeat center;
+    }
+
+    .outdoor-page-preview {
+        background: url('../images/outdoor-respray/l_laptop_outdoor.jpg') no-repeat center;
+    }
+
+    .upvc-page-preview {
+        background: url('../images/upvc-respray/l_laptop_upvc.jpg') no-repeat center;
     }
 }
 
@@ -132,6 +152,22 @@
 
     .furniture-page-preview {
         background: url('../images/furniture-respray/s_laptop_furniture.jpg') no-repeat center;
+    }
+
+    .children-page-preview {
+        background: url('../images/children-respray/s_laptop_children.jpg') no-repeat center;
+    }
+
+    .nursery-page-preview {
+        background: url('../images/nursery-respray/s_laptop_nursery.jpg') no-repeat center;
+    }
+
+    .outdoor-page-preview {
+        background: url('../images/outdoor-respray/s_laptop_outdoor.jpg') no-repeat center;
+    }
+
+    .upvc-page-preview {
+        background: url('../images/upvc-respray/s_laptop_upvc.jpg') no-repeat center;
     }
 
 }
@@ -742,6 +778,22 @@
         background: url('../images/furniture-respray/tablet_furniture.jpg') no-repeat center;
     }
 
+    .children-page-preview {
+        background: url('../images/children-respray/tablet_children.jpg') no-repeat center;
+    }
+
+    .nursery-page-preview {
+        background: url('../images/nursery-respray/tablet_nursery.jpg') no-repeat center;
+    }
+
+    .outdoor-page-preview {
+        background: url('../images/outdoor-respray/tablet_outdoor.jpg') no-repeat center;
+    }
+
+    .upvc-page-preview {
+        background: url('../images/upvc-respray/tablet_upvc.jpg') no-repeat center;
+    }
+
 }
 
 @media (max-width: 603px) {
@@ -966,6 +1018,22 @@
 
     .furniture-page-preview {
         background: url('../images/furniture-respray/mobile_furniture.jpg') no-repeat center;
+    }
+
+    .children-page-preview {
+        background: url('../images/children-respray/mobile_children.jpg') no-repeat center;
+    }
+
+    .nursery-page-preview {
+        background: url('../images/nursery-respray/mobile_nursery.jpg') no-repeat center;
+    }
+
+    .outdoor-page-preview {
+        background: url('../images/outdoor-respray/mobile_outdoor.jpg') no-repeat center;
+    }
+
+    .upvc-page-preview {
+        background: url('../images/upvc-respray/mobile_upvc.jpg') no-repeat center;
     }
 
 }
