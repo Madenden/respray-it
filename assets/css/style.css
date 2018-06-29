@@ -1,10 +1,11 @@
-/*
-Theme Name: Palace
-Description: Palace is a Interior Business Template. Its a full responsive theme built with Bootstrap.
-Version: 1.0
-Author: TheShahriyar
-Author URI: http://theshahriyar.com
-*/
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings: 'wght' 700, 'wght' 600, 'wght' 400, 'wdth' 300;
+}
+
 body {
     font-family: "Poppins", sans-serif;
     color: #333;
@@ -61,12 +62,70 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
     font-weight: 600;
     color: #333;
-    font-family: "Poppins", sans-serif !important;
+    font-family: "Poppins", sans-serif;
 }
 
 img {
     max-width: 100%;
     height: auto;
+}
+
+.jumbotron {
+    height: 100vh;
+    background: url('../images/main_page/main.jpg') no-repeat center;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    padding: 0;
+}
+
+.jumbotron .container-fluid,
+.jumbotron .row,
+.jumbotron .jbm-content-wrapper{
+    height: 100%;
+}
+
+.jbm-content-wrapper {
+    background-color: rgba(29, 29, 28, 0.6);
+    background-image: url(../images/main_page/round-shape.png);
+}
+
+.jmb-content {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 400px;
+    width: 80%;
+}
+
+.jmb-content .jmb-content-respray-it{
+    color: #f6d014;
+    font-size: 55px;
+    text-transform: none;
+    line-height: 1.25;
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.jmb-content h3 {
+    font-weight: 400;
+    color: #fff;
+    font-family: "Open Sans";
+    line-height: 1.45;
+    font-size: 27px;
+}
+
+.jmb-content p {
+    color: #fff;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.jmb-content .descr_services_btn {
+    margin-top: 10px;
+    float: left;
 }
 
 .text-left {

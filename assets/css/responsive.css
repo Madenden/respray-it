@@ -41,6 +41,10 @@
 }
 
 @media (max-width: 1920px) {
+    .jumbotron {
+        background: url('../images/main_page/main.jpg') no-repeat center;
+    }
+
     .preview-section-services {
         height: 600px;
         background-position: center;
@@ -140,6 +144,10 @@
 
     .navbar-nav > li > a {
         padding: 30px 14px;
+    }
+
+    .jumbotron {
+        background: url('../images/main_page/main_s_laptop.jpg') no-repeat center;
     }
 
     .about-page-preview {
@@ -766,6 +774,10 @@
         width: 90%;
     }
 
+    .jumbotron {
+        background: url('../images/main_page/main_tablet.jpg') no-repeat center;
+    }
+
     .about-page-preview {
         background-image: url("../images/about/tablet_preview.jpg");
     }
@@ -792,6 +804,22 @@
 
     .upvc-page-preview {
         background: url('../images/upvc-respray/tablet_upvc.jpg') no-repeat center;
+    }
+
+    .jmb-content {
+        position: absolute;
+        top: 50%;
+        text-align: center;
+    }
+    .jmb-content .jmb-content-respray-it{
+        text-align: center;
+    }
+    .jmb-content .descr_services_btn {
+        float: none;
+    }
+    .jmb-content p {
+        margin-left: 55px;
+        margin-right: 55px;
     }
 
 }
@@ -1006,6 +1034,10 @@
 
     .service-form {
         width: 330px;
+    }
+
+    .jumbotron {
+        background: url('../images/main_page/main_mobile.jpg') no-repeat center;
     }
 
     .about-page-preview {

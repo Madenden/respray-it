@@ -107,6 +107,7 @@ function initMap() {
     //   icon: image,
     //   title: 'You are here'
     // });
+
 }
 
 
