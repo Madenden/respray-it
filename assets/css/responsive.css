@@ -808,7 +808,7 @@
 
     .jmb-content {
         position: absolute;
-        top: 50%;
+        top: 57%;
         text-align: center;
     }
     .jmb-content .jmb-content-respray-it{
@@ -864,10 +864,12 @@
 
 }
 
-@media (max-width: 480px) {
+@media only screen and (max-width: 480px) {
     .navbar-default .navbar-brand img {
         width: 110px;
     }
+
+
 
     #logo img {
         max-height: 60%;
