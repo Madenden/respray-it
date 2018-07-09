@@ -871,8 +871,6 @@
         width: 110px;
     }
 
-
-
     #logo img {
         max-height: 60%;
         margin-top: 12px;
@@ -1084,6 +1082,18 @@
     .service-form {
         width: 280px;
     }
+	.jmb-content .jmb-content-respray-it {
+		font-size: 45px;
+	}
+	.jmb-content h3 {
+		font-size: 23px;
+	}
+	.jmb-content p {
+		font-size: 12px;
+	}
+	.jmb-content {
+		min-width: 320px;
+	}
 }
 
 @media (max-width: 351px) {
